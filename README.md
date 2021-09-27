@@ -1,12 +1,10 @@
-# 12-mysql-employee-tracker
+## Employee Tracker 
 
-Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as **C**ontent **M**anagement **S**ystems. In this homework assignment, your challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
 
-- [Live Link to Demo](https://www.youtube.com/watch?v=xP8feYon4gw&t=5s)
 
 ## Demo 
 
-![Demo](https://github.com/EdenKhaos/12-mysql-employee-tracker/blob/master/assets/12-Employee-Tracker-Demo.gif)
+https://watch.screencastify.com/v/P2gWBDU78F3ZocUVQi53
 
 ## Description
 * Functional application.
@@ -22,11 +20,30 @@ Developers are often tasked with creating interfaces that make it easy for non-d
   * Update employee roles
 
 ## User Story
-```
-As a business owner
-I want to be able to view and manage the departments, roles, and employees in my company
-So that I can organize and plan my business
-```
+AS A business owner
+I WANT to be able to view and manage the departments, roles, and employees in my company
+SO THAT I can organize and plan my business
+
+## Criteria
+
+GIVEN a command-line application that accepts user input
+WHEN I start the application
+THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
+WHEN I choose to view all departments
+THEN I am presented with a formatted table showing department names and department ids
+WHEN I choose to view all roles
+THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role
+WHEN I choose to view all employees
+THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
+WHEN I choose to add a department
+THEN I am prompted to enter the name of the department and that department is added to the database
+WHEN I choose to add a role
+THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
+WHEN I choose to add an employee
+THEN I am prompted to enter the employee’s first name, last name, role, and manager and that employee is added to the database
+WHEN I choose to update an employee role
+
+
 # Tech Used
 - inquirer
 - mySQL
@@ -34,9 +51,6 @@ So that I can organize and plan my business
 - Javascript
 - Node.js
 
-## Installation
-1. Clone from GitHub
-2. Open project directory, then npm install to install all required dependencies 
 
 ## Usage
 1. install npm init -y to create a new .json file
@@ -49,9 +63,7 @@ So that I can organize and plan my business
 8. make sure server.js is connected to SQL before continuing
 9. run through prompts as required 
 
-## Repository
 
-  - [Project Repo](https://github.com/EdenKhaos/12-mysql-employee-tracker)
 
 ## Contributions
 1. ![GitHub license](https://img.shields.io/badge/Made%20by-%40EdenKhaos-orange)
